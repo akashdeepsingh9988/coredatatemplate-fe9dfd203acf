@@ -88,6 +88,8 @@ class ViewController: UIViewController {
     @IBAction func showAllUsersPressed(_ sender: Any) {
         print("Show all users pressed!")
         
+        //hgggh
+        
         // This is the same as:  SELECT * FROM User
         let fetchRequest:NSFetchRequest<User> = User.fetchRequest()
         // like where
